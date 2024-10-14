@@ -1,0 +1,194 @@
+* {
+  margin: 0 0;
+  font-family: lato;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar-left img {
+  width: 50px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-right ul {
+  list-style: none;
+}
+.navbar-right ul li {
+  display: inline;
+}
+.navbar-right ul li a {
+  text-decoration: none;
+  color: rgb(158, 157, 157);
+  padding: 10px;
+  transition: 0.3s;
+}
+.navbar-right ul li a:hover {
+  color: white;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 40px;
+}
+
+.hero-left {
+  width: 50%;
+}
+.hero-right {
+  width: 50%;
+}
+.hero-right img {
+  width: 90%;
+}
+.hero-left h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #333;
+  font-weight: 900;
+}
+.hero-left p {
+  font-size: 15px;
+  color: #333;
+  margin: 10px 0;
+  font-weight: 300;
+}
+.hero-left button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 85px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.hero-left button:hover {
+  background-color: #555;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f1f1f1;
+  color: white;
+  padding: 20px 0px;
+}
+.sub-category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 30px 60px;
+  border-radius: 10px;
+  color: white;
+  flex-direction: column;
+  cursor: pointer;
+  border: 2px solid #000;
+}
+.sub-category i {
+  font-size: 50px;
+}
+.sub-category p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+#books {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0px;
+}
+.book {
+  display: none;
+  width: 200px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.sub-category.active {
+  background-color: #f0f0f0;
+  border-color: #333;
+  color: #333;
+  font-weight: bold;
+}
